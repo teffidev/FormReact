@@ -15,7 +15,7 @@ const Form = () => {
         e.preventDefault();
 
     //Por ahora solo mostramos el nombre del usuario
-        aler(`Bienvenido: ${userName}`);
+        alert(`Bienvenido: ${userName}`);
     };
 
     return (
